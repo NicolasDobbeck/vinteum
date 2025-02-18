@@ -4,6 +4,8 @@ public class Carta {
     private int numero;
     private Naipe naipe;
 
+    private String[] NAIPES = {"", "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+
     public Carta(int numero, Naipe naipe) {
         this.numero = numero;
         this.naipe = naipe;
@@ -18,13 +20,9 @@ public class Carta {
     }
 
     public String imagePath() {
-        String prefixo = numero + "";
-        if (numero == 1) prefixo = "Ace";
-        if (numero == 11) prefixo = "Jack";
-        if (numero == 12) prefixo = "Queen";
-        if (numero == 13) prefixo = "King";
+        
 
-        return "classic-cards/" + prefixo + naipe + ".png";
+        return "classic-cards/" + NAIPES[numero] + naipe + ".png";
     }
 
 }
