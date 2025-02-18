@@ -5,7 +5,7 @@ Este é um jogo de **Vinte e Um (Blackjack)** desenvolvido em **Java**, onde o o
 
 ## 🛠️ Tecnologias Utilizadas  
 - **Java** (linguagem principal)
-- 
+
 ## 🚀 Como Executar o Jogo  
 1. Certifique-se de ter o **Java** instalado na sua máquina.  
 2. Clone este repositório ou baixe os arquivos do projeto.  
